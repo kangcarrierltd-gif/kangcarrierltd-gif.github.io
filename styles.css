@@ -9,7 +9,7 @@ nav{display:flex;align-items:center;gap:30px}
 nav a{text-decoration:none;color:#111;font-weight:800;text-transform:uppercase;font-size:14px;letter-spacing:.02em}
 nav a:hover{color:#d71920}
 .menu{display:none;border:0;background:transparent;font-size:28px;cursor:pointer}
-.visual{width:100%;background:#000;scroll-margin-top:82px}
+.visual{width:100%;background:#fff;scroll-margin-top:82px}
 .visual img{display:block;width:100%;height:auto}
 .first{background:#fff}
 .service-strip{padding:72px 0;background:linear-gradient(135deg,#080808,#171717);border-top:4px solid #d71920;border-bottom:4px solid #d71920;scroll-margin-top:82px}
