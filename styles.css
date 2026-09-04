@@ -322,3 +322,66 @@ main{
     width:100% !important;
   }
 }
+
+/* FINAL POLISH - INNER PAGE SIZE + COMPACT SERVICES */
+
+/* Keep Home unchanged */
+
+/* Slightly reduce inner page graphic size on desktop */
+#about,
+#services,
+#careers,
+#contact{
+  width:90% !important;
+  max-width:1500px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+#about img,
+#services img,
+#careers img,
+#contact > img{
+  width:100% !important;
+  max-width:none !important;
+  height:auto !important;
+}
+
+/* Make Professional Freight Solutions more compact */
+.service-strip{
+  width:90% !important;
+  max-width:1500px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  padding:34px 0 !important;
+}
+
+.service-strip .wrap{
+  width:94% !important;
+  max-width:none !important;
+}
+
+.service-strip h1{
+  font-size:clamp(30px,3vw,46px) !important;
+  margin:8px 0 24px !important;
+}
+
+.service-strip .cards{
+  gap:12px !important;
+}
+
+.service-strip .cards div{
+  min-height:58px !important;
+  padding:14px 12px !important;
+}
+
+/* Mobile remains full width */
+@media(max-width:900px){
+  #about,
+  #services,
+  #careers,
+  #contact,
+  .service-strip{
+    width:100% !important;
+  }
+}
