@@ -43,7 +43,7 @@ footer{padding:28px 4%;text-align:center;background:#050505;color:#aaa;font-size
 /* Main picture sections */
 .visual{
   width:100%;
-  padding:18px 4%;
+  padding:18px 2%;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -51,9 +51,9 @@ footer{padding:28px 4%;text-align:center;background:#050505;color:#aaa;font-size
 
 .visual img{
   width:100%;
-  max-width:1200px;
+  max-width:none;
   height:auto;
-  max-height:680px;
+  max-height:none;
   object-fit:contain;
   display:block;
   margin:0 auto;
