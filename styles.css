@@ -37,3 +37,106 @@ footer{padding:28px 4%;text-align:center;background:#050505;color:#aaa;font-size
   .contact-actions{flex-direction:column}
   .contact-actions a{text-align:center}
 }
+
+/* ===== PROFESSIONAL COMPACT WEBSITE SIZING ===== */
+
+/* Main picture sections */
+.visual{
+  width:100%;
+  padding:18px 4%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.visual img{
+  width:100%;
+  max-width:1200px;
+  height:auto;
+  max-height:680px;
+  object-fit:contain;
+  display:block;
+  margin:0 auto;
+}
+
+/* First / Home section */
+.first{
+  padding-top:18px;
+  padding-bottom:18px;
+}
+
+/* Services section */
+.service-strip{
+  padding:52px 0;
+}
+
+.wrap{
+  width:min(1180px,92%);
+}
+
+.service-strip h1{
+  font-size:clamp(30px,3.2vw,48px);
+  margin:10px 0 26px;
+}
+
+.eyebrow{
+  font-size:14px;
+}
+
+.cards{
+  gap:14px;
+}
+
+.cards div{
+  min-height:64px;
+  padding:15px 12px;
+  font-size:15px;
+}
+
+/* Contact buttons */
+.contact-actions{
+  gap:12px;
+  padding:20px 0;
+}
+
+.contact-actions a{
+  padding:12px 22px;
+  font-size:14px;
+}
+
+/* Footer */
+footer{
+  padding:20px 4%;
+}
+
+/* Mobile */
+@media(max-width:900px){
+  .visual{
+    padding:10px 0;
+  }
+
+  .visual img{
+    width:100%;
+    max-width:100%;
+    max-height:none;
+  }
+
+  .first{
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+
+  .service-strip{
+    padding:38px 0;
+  }
+
+  .service-strip h1{
+    font-size:30px;
+    margin-bottom:22px;
+  }
+
+  .cards div{
+    min-height:58px;
+    font-size:14px;
+  }
+}
