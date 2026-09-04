@@ -268,3 +268,57 @@ main{
     width:90% !important;
   }
 }
+
+/* FINAL DESKTOP SCREEN FIT */
+
+main{
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+#home,
+#about,
+#services,
+#careers,
+#contact{
+  width:96vw !important;
+  max-width:1700px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+#home img,
+#about img,
+#services img,
+#careers img,
+#contact > img{
+  display:block !important;
+  width:100% !important;
+  max-width:none !important;
+  height:auto !important;
+}
+
+.service-strip{
+  width:96vw !important;
+  max-width:1700px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+.service-strip .wrap{
+  width:94% !important;
+  max-width:none !important;
+}
+
+@media(max-width:900px){
+  #home,
+  #about,
+  #services,
+  #careers,
+  #contact,
+  .service-strip{
+    width:100% !important;
+  }
+}
